@@ -5,17 +5,21 @@
     <meta charset="utf-8">
     <title>Switch</title>
     <script>
+        var parametro = prompt('Digite um número')
         
-        switch (parametro) {
-            case 1: $
+        switch (parseInt(parametro)){ 
+            case 1: 
+            document.write('Parametro 1')
                 //se parametro === 1
-                break
+                break // instrução importante para interomper o procesamento de um case.
 
             case 2:
+                 document.write('Parametro 2')
                 // se parametro === 2
-                break
+              break
 
             default:
+                document.write('Default') // Default é opcional.
 
             //se parametro não encontrado
         }
